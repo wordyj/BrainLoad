@@ -78,24 +78,27 @@ Partial Class Demo
         '
         'ReadNor
         '
+        Me.ReadNor.AutoSize = True
         Me.ReadNor.BackColor = System.Drawing.Color.MidnightBlue
         Me.ReadNor.Controls.Add(Me.Readnortext)
         Me.ReadNor.Controls.Add(Me.Label1)
         Me.ReadNor.Controls.Add(Me.Stops)
         Me.ReadNor.Controls.Add(Me.Start)
-        Me.ReadNor.Location = New System.Drawing.Point(30, 35)
+        Me.ReadNor.Location = New System.Drawing.Point(30, 23)
         Me.ReadNor.Name = "ReadNor"
-        Me.ReadNor.Size = New System.Drawing.Size(167, 119)
+        Me.ReadNor.Size = New System.Drawing.Size(2619, 675)
         Me.ReadNor.TabIndex = 5
         '
         'Readnortext
         '
+        Me.Readnortext.AutoEllipsis = True
         Me.Readnortext.AutoSize = True
+        Me.Readnortext.BackColor = System.Drawing.Color.White
         Me.Readnortext.Font = New System.Drawing.Font("Berlin Sans FB", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Readnortext.ForeColor = System.Drawing.Color.Lime
-        Me.Readnortext.Location = New System.Drawing.Point(16, 219)
+        Me.Readnortext.ForeColor = System.Drawing.Color.White
+        Me.Readnortext.Location = New System.Drawing.Point(130, 283)
         Me.Readnortext.Name = "Readnortext"
-        Me.Readnortext.Size = New System.Drawing.Size(1036, 270)
+        Me.Readnortext.Size = New System.Drawing.Size(675, 240)
         Me.Readnortext.TabIndex = 2
         Me.Readnortext.Text = resources.GetString("Readnortext.Text")
         '
@@ -198,7 +201,7 @@ Partial Class Demo
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(1739, 1053)
+        Me.ClientSize = New System.Drawing.Size(1362, 741)
         Me.Controls.Add(Me.ReadNor)
         Me.Controls.Add(Me.WelcomeText)
         Me.Controls.Add(Me.RealBL)
@@ -212,6 +215,7 @@ Partial Class Demo
         Me.RealBL.ResumeLayout(False)
         Me.RealBL.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents WelcomeText As Panel

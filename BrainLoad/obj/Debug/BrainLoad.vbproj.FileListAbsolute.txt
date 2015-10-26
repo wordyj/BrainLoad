@@ -14,3 +14,19 @@ C:\Users\lach\Documents\Visual Studio 2015\Projects\BrainLoad\BrainLoad\obj\Debu
 C:\Users\lach\documents\visual studio 2015\Projects\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Demo_Quizes.resources
 C:\Users\lach\documents\visual studio 2015\Projects\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Demo_Quizes2.resources
 C:\Users\lach\documents\visual studio 2015\Projects\BrainLoad\BrainLoad\obj\Debug\BrainLoad.options.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\bin\Debug\BrainLoad.exe.config
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.exe
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.xml
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.pdb
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\bin\Debug\BrainLoad.exe
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\bin\Debug\BrainLoad.pdb
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\bin\Debug\BrainLoad.xml
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.vbprojResolveAssemblyReference.cache
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Demo_Quizes.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Demo.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Demo_Quizes2.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Display.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Main.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.Resources.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.options.resources
+C:\Users\lach\Documents\GitHub\BrainLoad\BrainLoad\obj\Debug\BrainLoad.vbproj.GenerateResource.Cache

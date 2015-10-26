@@ -9,11 +9,13 @@ Public Class Demo
     Public Shared NewWPM As String
     Public Shared SPW As String
     Private Sub Demo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Setting the Size and locations of items
         ReadNor.Visible = False
         ReadNor.Location = New Point(12, 12)
         WelcomeText.Location = New Point(12, 12)
         WelcomeText.Visible = True
-        Readnortext.Visible = False
+        Readnortext.Visible = True
+        Readnortext.ForeColor = Color.White
         Stops.Visible = False
         RealBL.Visible = False
         RealBL.Location = New Point(12, 12)
@@ -22,12 +24,13 @@ Public Class Demo
         ReadNor.Size = New Size(Width, Height)
         WelcomeText.Size = New Size(Width - 20, Height - 20)
         RealBL.Size = New Size(Width - 150, Height - 200)
-        Start.Location = New Point((Width / 2) - (Start.Width / 2), (Height / 2) - (Start.Height / 2))
-        Stops.Location = New Point((Width / 2) - (Stops.Width / 2), (Height / 2) - (Stops.Height / 2))
-        Readnortext.Location = New Point((Width / 2) - (Readnortext.Width / 2), (Height / 2) - (Readnortext.Height) - 200)
-        Label1.Location = New Point((Width / 2) - (Label1.Width / 2), (Height / 2) - (Label1.Height / 2) - 200)
-    End Sub
-    Private Sub Next1De_Click_1(sender As Object, e As EventArgs)
+        Start.Location = New Point((Width / 2) - (Start.Width / 2), (Height / 2) - (Start.Height / 2) + 200)
+        Stops.Location = New Point((Width / 2) - (Stops.Width / 2), (Height / 2) - (Stops.Height / 2) + 200)
+        Readnortext.Location = New Point((Width / 2) - (Readnortext.Width / 2), (Height / 2) - (Readnortext.Height) + 100)
+        Readnortext.Size = New Point(Width, Height)
+        Label1.Location = New Point((Width / 2) - (Label1.Width / 2), (Height / 2) - (Label1.Height * 2))
+    End Sub 'Location and Size
+    Private Sub Next1De_Click_1(sender As Object, e As EventArgs) 'Changing of visibilities
         ReadNor.Visible = True
         WelcomeText.Visible = False
     End Sub
@@ -52,7 +55,7 @@ Public Class Demo
         Stops.Visible = True
         starttime = Now
         'MsgBox(starttime)
-        Readnortext.Visible = True
+        Readnortext.ForeColor = Color.Black
         Label1.Visible = False
     End Sub
 
@@ -62,7 +65,7 @@ Public Class Demo
         Readnortext.Visible = False
         finishtime = Now
         Readtime = (finishtime - starttime)
-        WPM = 120 / (Readtime.Minutes + (Readtime.Seconds / 60))
+        WPM = 78 / (Readtime.Minutes + (Readtime.Seconds / 60))
         MsgBox("Your Speed was:" & WPM & " Words per minute")
         Demo_Quizes.Show()
         Label1.Visible = False
@@ -112,6 +115,25 @@ Public Class Demo
         Start.Location = New Point((Width / 2) - (Start.Width / 2), (Height / 2) - (Start.Height / 2))
         Stops.Location = New Point((Width / 2) - (Stops.Width / 2), (Height / 2) - (Stops.Height / 2))
         Readnortext.Location = New Point((Width / 2) - (Readnortext.Width / 2), (Height / 2) - (Readnortext.Height) - 200)
+        Label1.Location = New Point((Width / 2) - (Label1.Width / 2), (Height / 2) - (Label1.Height / 2) - 200)
+        ReadNor.Visible = False
+        ReadNor.Location = New Point(12, 12)
+        WelcomeText.Location = New Point(12, 12)
+        'WelcomeText.Visible = True
+        'Readnortext.Visible = True
+        'Readnortext.ForeColor = Color.White
+        'Stops.Visible = False
+        'RealBL.Visible = False
+        RealBL.Location = New Point(12, 12)
+        Label2.Location = New Point((Width / 2) - (Label2.Width / 2), 2)
+        Next1De.Location = New Point((Width / 2) - (Next1De.Width / 2), (Label2.Height) + 100)
+        ReadNor.Size = New Size(Width, Height)
+        WelcomeText.Size = New Size(Width - 20, Height - 20)
+        RealBL.Size = New Size(Width - 150, Height - 200)
+        Start.Location = New Point((Width / 2) - (Start.Width / 2), (Height / 2) - (Start.Height / 2))
+        Stops.Location = New Point((Width / 2) - (Stops.Width / 2), (Height / 2) - (Stops.Height / 2))
+        Readnortext.Location = New Point((Width / 2) - (Readnortext.Width / 2), (Height / 2) - (Readnortext.Height) - 200)
+        Readnortext.Size = New Point(Width, Height)
         Label1.Location = New Point((Width / 2) - (Label1.Width / 2), (Height / 2) - (Label1.Height / 2) - 200)
     End Sub
 

@@ -133,14 +133,13 @@ Press next to start the analysis
 </value>
   </data>
   <data name="Readnortext.Text" xml:space="preserve">
-    <value>Green is a beautiful color! In nature, the grass that you walk on is green and the leaves
-that you see on trees are usually green.Most of the plants that you see are green, too!
-Frogs are green and many grasshoppers are green, too. Turtles are different shades of green.
-Did you know that you can make green paint by mixing blue and yellow? Because you can
-make green by mixing two primary colors, it is called a secondary color.
-Green is also the name used to describe the movement to make products that do not
-harm the Earth. Green products are often those made from recycled materials
-or those that are safe to throw out in the trash.
+    <value>Phillip is 5 years old, his mother is 40 years old, Phillip,
+his mother and the rest of his family live in a small town
+called Wagga Wagga. One day while on a trip to the snow,
+Phillip and his family created a snowman, they named the
+snowman Bill.Also while in the snow the family went skiing,
+Phillip wore size 4 shoes and his mum wore size 8. 
+Phillip enjoyed skiing although he fell off 6 times.
 
 </value>
   </data>
@@ -149,7 +148,4 @@ or those that are safe to throw out in the trash.
 Banks also give loans to people. Banks use the money that their customers deposit to lend to people to buy new houses, cars, or to start businesses among other reasons. The bank makes money from lending by charging interest. In other words, people have to pay back more than they borrowed. This amount depends on how risky the bank thinks the borrower is and how fast the loan is paid back among other things. 
 </value>
   </data>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
