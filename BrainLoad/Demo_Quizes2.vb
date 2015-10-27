@@ -69,7 +69,7 @@
         core = (que1 + que2 + que3 + que4 + que5) * 20
         Demo.Close()
         Review.Visible = True
-        Norcompres.Text = "Comprehension:" & Demo_Quizes.CompRes & "%"
+        'Norcompres.Text = "Comprehension:" & Demo_Quizes.CompRes & "%"
         norspeed.Text = "Speed:" & Demo.WPM & " WPM"
         realcompres.Text = "Comprehension:" & core & "%"
         realspeed.Text = "Speed:" & Demo.NewWPM & " WPM"
