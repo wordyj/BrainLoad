@@ -84,6 +84,8 @@
         If F.Checked = True Then
             Quest14 = 1
             'MsgBox("y")
+        ElseIf F.Checked = False And RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton5.Checked = False
+            MsgBox("Please sumbit a response!")
         Else
             Quest14 = 0
         End If
