@@ -23,6 +23,8 @@
         If Chicago.Checked = True Then
             Quest11 = 1
             'MsgBox("y")
+        ElseIf Chicago.Checked = False And Sydney.Checked = False And RadioButton3.Checked = False And NewYork.Checked = False
+            MsgBox("Please sumbit a response!")
         Else
             Quest11 = 0
         End If
@@ -33,6 +35,8 @@
         If CapB.Checked = True Then
             Quest15 = 1
             'MsgBox("y")
+        ElseIf CapB.Checked = False And CapBa.Checked = False And RadioButton4.Checked = False And RadioButton9.Checked = False
+            MsgBox("Please sumbit a response!")
         Else
             Quest15 = 0
         End If
@@ -54,6 +58,8 @@
         If Canberran.Checked = True Then
             Quest12 = 1
             'MsgBox("y")
+        ElseIf Canberran.Checked = False And Canberrar.Checked = False And Canberramen.Checked = False And Canberrite.Checked = False
+            MsgBox("Please sumbit a response!")
         Else
             Quest12 = 0
         End If
@@ -65,6 +71,8 @@
         If Turcor.Checked = True Then
             Quest13 = 1
             'MsgBox("y")
+        ElseIf Turcor.Checked = False And nineteenhundred.Checked = False And nineteensixty.Checked = False And ninteenoate.Checked = False
+            MsgBox("Please sumbit a response!")
         Else
             Quest13 = 0
         End If

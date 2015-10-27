@@ -29,25 +29,30 @@ Partial Class Demo_Quizes
         Me.Chicago = New System.Windows.Forms.RadioButton()
         Me.QuizNext1 = New System.Windows.Forms.Button()
         Me.qu1q = New System.Windows.Forms.Panel()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.qu1q3 = New System.Windows.Forms.Panel()
+        Me.Turcor = New System.Windows.Forms.RadioButton()
         Me.QuizNext3 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.ninteenoate = New System.Windows.Forms.RadioButton()
         Me.nineteensixty = New System.Windows.Forms.RadioButton()
         Me.nineteenhundred = New System.Windows.Forms.RadioButton()
         Me.qu1q2 = New System.Windows.Forms.Panel()
+        Me.Canberran = New System.Windows.Forms.RadioButton()
         Me.QuizNext2 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Canberrar = New System.Windows.Forms.RadioButton()
         Me.Canberramen = New System.Windows.Forms.RadioButton()
         Me.Canberrite = New System.Windows.Forms.RadioButton()
         Me.Qu1q4 = New System.Windows.Forms.Panel()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.YearQuest = New System.Windows.Forms.Label()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.F = New System.Windows.Forms.RadioButton()
         Me.qu1q5 = New System.Windows.Forms.Panel()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.QuizNext5 = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.CapBa = New System.Windows.Forms.RadioButton()
@@ -58,11 +63,6 @@ Partial Class Demo_Quizes
         Me.CapA = New System.Windows.Forms.RadioButton()
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
         Me.RadioButton12 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.Turcor = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.Canberran = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.qu1q.SuspendLayout()
         Me.qu1q3.SuspendLayout()
         Me.qu1q2.SuspendLayout()
@@ -145,6 +145,17 @@ Partial Class Demo_Quizes
         Me.qu1q.Size = New System.Drawing.Size(279, 259)
         Me.qu1q.TabIndex = 6
         '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(3, 124)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(156, 17)
+        Me.RadioButton3.TabIndex = 6
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "One that is made from grass"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
         'qu1q3
         '
         Me.qu1q3.Controls.Add(Me.Turcor)
@@ -157,6 +168,17 @@ Partial Class Demo_Quizes
         Me.qu1q3.Name = "qu1q3"
         Me.qu1q3.Size = New System.Drawing.Size(279, 259)
         Me.qu1q3.TabIndex = 7
+        '
+        'Turcor
+        '
+        Me.Turcor.AutoSize = True
+        Me.Turcor.Location = New System.Drawing.Point(3, 124)
+        Me.Turcor.Name = "Turcor"
+        Me.Turcor.Size = New System.Drawing.Size(146, 17)
+        Me.Turcor.TabIndex = 6
+        Me.Turcor.TabStop = True
+        Me.Turcor.Text = "Different Shades of green"
+        Me.Turcor.UseVisualStyleBackColor = True
         '
         'QuizNext3
         '
@@ -223,6 +245,17 @@ Partial Class Demo_Quizes
         Me.qu1q2.Size = New System.Drawing.Size(279, 259)
         Me.qu1q2.TabIndex = 7
         '
+        'Canberran
+        '
+        Me.Canberran.AutoSize = True
+        Me.Canberran.Location = New System.Drawing.Point(3, 124)
+        Me.Canberran.Name = "Canberran"
+        Me.Canberran.Size = New System.Drawing.Size(196, 17)
+        Me.Canberran.TabIndex = 6
+        Me.Canberran.TabStop = True
+        Me.Canberran.Text = "a plastic bottle that can be recycled "
+        Me.Canberran.UseVisualStyleBackColor = True
+        '
         'QuizNext2
         '
         Me.QuizNext2.Location = New System.Drawing.Point(6, 154)
@@ -288,6 +321,17 @@ Partial Class Demo_Quizes
         Me.Qu1q4.Size = New System.Drawing.Size(279, 259)
         Me.Qu1q4.TabIndex = 8
         '
+        'RadioButton5
+        '
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Location = New System.Drawing.Point(3, 124)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(93, 17)
+        Me.RadioButton5.TabIndex = 6
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "a primary color" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.RadioButton5.UseVisualStyleBackColor = True
+        '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(6, 147)
@@ -352,6 +396,17 @@ Partial Class Demo_Quizes
         Me.qu1q5.Name = "qu1q5"
         Me.qu1q5.Size = New System.Drawing.Size(279, 259)
         Me.qu1q5.TabIndex = 8
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(3, 124)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(93, 17)
+        Me.RadioButton4.TabIndex = 6
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "a primary color"
+        Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'QuizNext5
         '
@@ -457,66 +512,11 @@ Partial Class Demo_Quizes
         Me.RadioButton12.Text = "a"
         Me.RadioButton12.UseVisualStyleBackColor = True
         '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(3, 124)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(156, 17)
-        Me.RadioButton3.TabIndex = 6
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "One that is made from grass"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'Turcor
-        '
-        Me.Turcor.AutoSize = True
-        Me.Turcor.Location = New System.Drawing.Point(3, 124)
-        Me.Turcor.Name = "Turcor"
-        Me.Turcor.Size = New System.Drawing.Size(146, 17)
-        Me.Turcor.TabIndex = 6
-        Me.Turcor.TabStop = True
-        Me.Turcor.Text = "Different Shades of green"
-        Me.Turcor.UseVisualStyleBackColor = True
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(3, 124)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(93, 17)
-        Me.RadioButton4.TabIndex = 6
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "a primary color"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'Canberran
-        '
-        Me.Canberran.AutoSize = True
-        Me.Canberran.Location = New System.Drawing.Point(3, 124)
-        Me.Canberran.Name = "Canberran"
-        Me.Canberran.Size = New System.Drawing.Size(196, 17)
-        Me.Canberran.TabIndex = 6
-        Me.Canberran.TabStop = True
-        Me.Canberran.Text = "a plastic bottle that can be recycled "
-        Me.Canberran.UseVisualStyleBackColor = True
-        '
-        'RadioButton5
-        '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(3, 124)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(93, 17)
-        Me.RadioButton5.TabIndex = 6
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "a primary color" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.RadioButton5.UseVisualStyleBackColor = True
-        '
         'Demo_Quizes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(308, 279)
+        Me.ClientSize = New System.Drawing.Size(875, 489)
         Me.Controls.Add(Me.qu1q2)
         Me.Controls.Add(Me.Qu1q4)
         Me.Controls.Add(Me.qu1q5)
