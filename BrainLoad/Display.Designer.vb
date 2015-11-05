@@ -28,13 +28,14 @@ Partial Class Display
         Me.PlayerPanel = New System.Windows.Forms.Panel()
         Me.EnMore = New System.Windows.Forms.Button()
         Me.PlayerText = New System.Windows.Forms.Label()
+        Me.uClip = New System.Windows.Forms.Button()
         Me.TextEntryPanel.SuspendLayout()
         Me.PlayerPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'UserTextEn
         '
-        Me.UserTextEn.Location = New System.Drawing.Point(0, 0)
+        Me.UserTextEn.Location = New System.Drawing.Point(0, 3)
         Me.UserTextEn.Multiline = True
         Me.UserTextEn.Name = "UserTextEn"
         Me.UserTextEn.Size = New System.Drawing.Size(434, 316)
@@ -46,7 +47,7 @@ Partial Class Display
         Me.RunPlay.FlatAppearance.BorderSize = 0
         Me.RunPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.RunPlay.Font = New System.Drawing.Font("Impact", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RunPlay.Location = New System.Drawing.Point(178, 322)
+        Me.RunPlay.Location = New System.Drawing.Point(135, 325)
         Me.RunPlay.Name = "RunPlay"
         Me.RunPlay.Size = New System.Drawing.Size(79, 34)
         Me.RunPlay.TabIndex = 1
@@ -56,6 +57,7 @@ Partial Class Display
         'TextEntryPanel
         '
         Me.TextEntryPanel.BackColor = System.Drawing.Color.MidnightBlue
+        Me.TextEntryPanel.Controls.Add(Me.uClip)
         Me.TextEntryPanel.Controls.Add(Me.UserTextEn)
         Me.TextEntryPanel.Controls.Add(Me.RunPlay)
         Me.TextEntryPanel.Location = New System.Drawing.Point(12, 203)
@@ -97,6 +99,15 @@ Partial Class Display
         Me.PlayerText.TabIndex = 0
         Me.PlayerText.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
+        'uClip
+        '
+        Me.uClip.Location = New System.Drawing.Point(220, 325)
+        Me.uClip.Name = "uClip"
+        Me.uClip.Size = New System.Drawing.Size(132, 23)
+        Me.uClip.TabIndex = 2
+        Me.uClip.Text = "Use text from clipboard"
+        Me.uClip.UseVisualStyleBackColor = True
+        '
         'Display
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -122,4 +133,5 @@ Partial Class Display
     Friend WithEvents PlayerPanel As Panel
     Friend WithEvents PlayerText As Label
     Friend WithEvents EnMore As Button
+    Friend WithEvents uClip As Button
 End Class
