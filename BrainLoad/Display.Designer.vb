@@ -56,7 +56,7 @@ Partial Class Display
         '
         'TextEntryPanel
         '
-        Me.TextEntryPanel.BackColor = System.Drawing.Color.MidnightBlue
+        Me.TextEntryPanel.BackColor = System.Drawing.Color.Black
         Me.TextEntryPanel.Controls.Add(Me.uClip)
         Me.TextEntryPanel.Controls.Add(Me.UserTextEn)
         Me.TextEntryPanel.Controls.Add(Me.RunPlay)
@@ -93,7 +93,7 @@ Partial Class Display
         '
         Me.PlayerText.AutoSize = True
         Me.PlayerText.Font = New System.Drawing.Font("Impact", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PlayerText.Location = New System.Drawing.Point(225, 0)
+        Me.PlayerText.Location = New System.Drawing.Point(62, 0)
         Me.PlayerText.Name = "PlayerText"
         Me.PlayerText.Size = New System.Drawing.Size(0, 117)
         Me.PlayerText.TabIndex = 0
@@ -112,7 +112,7 @@ Partial Class Display
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.MidnightBlue
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(819, 595)
         Me.Controls.Add(Me.PlayerPanel)
         Me.Controls.Add(Me.TextEntryPanel)

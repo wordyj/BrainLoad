@@ -40,9 +40,10 @@ Public Class Display
     Private Sub Display_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TextEntryPanel.Location = New Point((Me.Width / 2) - (TextEntryPanel.Width / 2), (Me.Height / 2) - (TextEntryPanel.Height / 2))
         PlayerPanel.Location = New Point((Width / 2) - (PlayerPanel.Width / 2), (Height / 2) - (PlayerPanel.Height / 2))
+        PlayerPanel.Size = New Size(Width, Height)
         EnMore.Location = New Point((Width / 2) - (EnMore.Width / 2), (Height / 2) - (EnMore.Height / 2))
         If options.Colorv = Nothing Then
-            options.Colorv = Color.FromArgb(25, 25, 112)
+            options.Colorv = Color.Black
         End If
         BackColor = options.Colorv
         PlayerText.Font = options.Fontv

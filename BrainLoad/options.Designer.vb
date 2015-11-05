@@ -28,6 +28,9 @@ Partial Class options
         Me.FontCaller = New System.Windows.Forms.Button()
         Me.ColorCaller = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.FontDialog2 = New System.Windows.Forms.FontDialog()
+        Me.ColorDialog2 = New System.Windows.Forms.ColorDialog()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -44,8 +47,8 @@ Partial Class options
         '
         'FontDialog1
         '
-        Me.FontDialog1.Color = System.Drawing.Color.Yellow
-        Me.FontDialog1.Font = New System.Drawing.Font("Impact", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FontDialog1.Color = System.Drawing.Color.White
+        Me.FontDialog1.Font = New System.Drawing.Font("Arial", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'ColorDialog1
         '
@@ -88,12 +91,28 @@ Partial Class options
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Speed"
         '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(65, 105)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(108, 17)
+        Me.CheckBox1.TabIndex = 4
+        Me.CheckBox1.Text = "LockHighVisibility"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'FontDialog2
+        '
+        Me.FontDialog2.Color = System.Drawing.Color.White
+        Me.FontDialog2.Font = New System.Drawing.Font("Arial", 99.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        '
         'options
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkCyan
         Me.ClientSize = New System.Drawing.Size(470, 166)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ColorCaller)
         Me.Controls.Add(Me.FontCaller)
@@ -111,4 +130,7 @@ Partial Class options
     Friend WithEvents FontCaller As Button
     Friend WithEvents ColorCaller As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents FontDialog2 As FontDialog
+    Friend WithEvents ColorDialog2 As ColorDialog
 End Class
