@@ -19,9 +19,10 @@ Public Class Display
         MsgBox(speed)
         MsgBox(speedv)
         ''End of filtering
-        If speedv = vbNull Then
-            MsgBox("")
-        End If
+        MsgBox("Reading will start in 3 seconds.")
+        Thread.Sleep(1000)
+        Thread.Sleep(1000)
+        Thread.Sleep(1000)
         For Each x In SplitOutput
             PlayerText.Text = x
             My.Application.DoEvents()
@@ -53,4 +54,42 @@ Public Class Display
         PlayerPanel.Location = New Point((Width / 2) - (PlayerPanel.Width / 2), (Height / 2) - (PlayerPanel.Height / 2))
         EnMore.Location = New Point((Width / 2) - (EnMore.Width / 2), (Height / 2) - (EnMore.Height / 2))
     End Sub
+
+    Private Sub uClip_Click(sender As Object, e As EventArgs) Handles uClip.Click
+        Call ClipReader()
+        If Not ClipReader() = Nothing Then
+            PlayerText.Font = options.Fontv
+            TextEntryPanel.Visible = False
+            PlayerPanel.Visible = True
+            'Filtering
+            Dim userinput = ClipReader()
+            Dim wCre = userinput.Replace(vbCr, " ").Replace(vbLf, " ")
+            Dim wPu = Regex.Replace(wCre, "[^A-Za-z0-9? ]+", String.Empty)
+            Dim SplitOutput = Split(wPu)
+            If speed = Nothing Then
+                speed = 500
+            End If
+            speedv = (60 / speed) * 1000
+            MsgBox("Reading will start in 3 seconds.")
+            Thread.Sleep(1000)
+            Thread.Sleep(1000)
+            Thread.Sleep(1000)
+            ''End of filtering
+            For Each x In SplitOutput
+                PlayerText.Text = x
+                My.Application.DoEvents()
+                Thread.Sleep(speedv)
+            Next
+            PlayerText.Text = ""
+            Close()
+        End If
+    End Sub
+    Function ClipReader()
+        Dim returnText As String = Nothing
+        If (Clipboard.ContainsText(TextDataFormat.Text)) Then
+            returnText = Clipboard.GetText(TextDataFormat.Text)
+        Else returnText = Nothing
+        End If
+        Return returnText
+    End Function
 End Class
